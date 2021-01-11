@@ -30,6 +30,8 @@ public class Application {
     private static final int DEFAULT_PORT = 8080;
 
     private static final Logger LOGGER = Logger.getLogger(Application.class.getName());
+    
+    private JerseyConfig config = new JerseyConfig();
 
     /**
      * Start server on the port 8080.

@@ -31,7 +31,7 @@ public class AuthorizationFilter implements ContainerRequestFilter {
 
     @Override
     public void filter(final ContainerRequestContext requestContext) throws IOException {
-
+System.out.println("AUTHORIZATION");
         Method method = resourceInfo.getResourceMethod();
 
         // @DenyAll on the method takes precedence over @RolesAllowed and @PermitAll

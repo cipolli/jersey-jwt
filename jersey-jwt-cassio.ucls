@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="true" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.cassiomolin.example.security.api.resource.AuthenticationResource" 
+    project="jersey-jwt" 
+    file="/jersey-jwt/src/main/java/com/cassiomolin/example/security/api/resource/AuthenticationResource.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="806" y="30"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.cassiomolin.example.security.api.TokenBasedSecurityContext" 
+    project="jersey-jwt" 
+    file="/jersey-jwt/src/main/java/com/cassiomolin/example/security/api/TokenBasedSecurityContext.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="465" x="1124" y="230"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.cassiomolin.example.security.api.model.UserCredentials" project="jersey-jwt" 
+    file="/jersey-jwt/src/main/java/com/cassiomolin/example/security/api/model/UserCredentials.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1134" y="3"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.cassiomolin.example.security.exception.InvalidAuthenticationTokenException" 
+    project="jersey-jwt" 
+    file="/jersey-jwt/src/main/java/com/cassiomolin/example/security/exception/InvalidAuthenticationTokenException.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="291" x="1227" y="958"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.cassiomolin.example.security.api.AuthenticatedUserDetails" 
+    project="jersey-jwt" 
+    file="/jersey-jwt/src/main/java/com/cassiomolin/example/security/api/AuthenticatedUserDetails.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="259" x="2270" y="477"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" 
+    name="com.cassiomolin.example.security.exception.AuthenticationTokenRefreshmentException" project="jersey-jwt" 
+    file="/jersey-jwt/src/main/java/com/cassiomolin/example/security/exception/AuthenticationTokenRefreshmentException.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="323" x="1619" y="477"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.cassiomolin.example.security.api.AuthenticationTokenDetails" 
+    project="jersey-jwt" 
+    file="/jersey-jwt/src/main/java/com/cassiomolin/example/security/api/AuthenticationTokenDetails.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="333" width="481" x="1206" y="1529"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.cassiomolin.example.security.api.model.AuthenticationToken" 
+    project="jersey-jwt" 
+    file="/jersey-jwt/src/main/java/com/cassiomolin/example/security/api/model/AuthenticationToken.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="197" x="528" y="230"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.cassiomolin.example.security.exception.AuthenticationException" 
+    project="jersey-jwt" 
+    file="/jersey-jwt/src/main/java/com/cassiomolin/example/security/exception/AuthenticationException.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="233" x="57" y="477"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.cassiomolin.example.security.api.AuthenticationTokenDetails.Builder" 
+    project="jersey-jwt" 
+    file="/jersey-jwt/src/main/java/com/cassiomolin/example/security/api/AuthenticationTokenDetails.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="333" width="235" x="1558" y="958"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="11" language="java" name="com.cassiomolin.example.security.domain.Authority" project="jersey-jwt" 
+    file="/jersey-jwt/src/main/java/com/cassiomolin/example/security/domain/Authority.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="187" x="1166" y="1902"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="12" language="java" name="com.cassiomolin.example.security.api.filter.AuthenticationFilter" 
+    project="jersey-jwt" 
+    file="/jersey-jwt/src/main/java/com/cassiomolin/example/security/api/filter/AuthenticationFilter.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="371" x="1550" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.cassiomolin.example.security.api.filter.AuthorizationFilter" 
+    project="jersey-jwt" 
+    file="/jersey-jwt/src/main/java/com/cassiomolin/example/security/api/filter/AuthorizationFilter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="319" x="214" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.cassiomolin.example.security.service.AuthenticationTokenIssuer" 
+    project="jersey-jwt" 
+    file="/jersey-jwt/src/main/java/com/cassiomolin/example/security/service/AuthenticationTokenIssuer.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="248" x="1982" y="477"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.cassiomolin.example.security.service.AuthenticationTokenParser" 
+    project="jersey-jwt" 
+    file="/jersey-jwt/src/main/java/com/cassiomolin/example/security/service/AuthenticationTokenParser.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="301" x="1227" y="477"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.cassiomolin.example.security.service.PasswordEncoder" project="jersey-jwt" 
+    file="/jersey-jwt/src/main/java/com/cassiomolin/example/security/service/PasswordEncoder.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="58" width="188" x="330" y="477"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="com.cassiomolin.example.security.service.AuthenticationTokenSettings" 
+    project="jersey-jwt" 
+    file="/jersey-jwt/src/main/java/com/cassiomolin/example/security/service/AuthenticationTokenSettings.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="333" width="260" x="1854" y="958"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="com.cassiomolin.example.security.service.UsernamePasswordValidator" 
+    project="jersey-jwt" 
+    file="/jersey-jwt/src/main/java/com/cassiomolin/example/security/service/UsernamePasswordValidator.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="210" x="278" y="230"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.cassiomolin.example.security.service.AuthenticationTokenService" 
+    project="jersey-jwt" 
+    file="/jersey-jwt/src/main/java/com/cassiomolin/example/security/service/AuthenticationTokenService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="299" x="1629" y="230"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.cassiomolin.example.user.api.resource.UserResource" project="jersey-jwt" 
+    file="/jersey-jwt/src/main/java/com/cassiomolin/example/user/api/resource/UserResource.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="235" x="807" y="230"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="com.cassiomolin.example.user.service.UserService" project="jersey-jwt" 
+    file="/jersey-jwt/src/main/java/com/cassiomolin/example/user/service/UserService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="204" x="600" y="477"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="com.cassiomolin.example.user.api.model.QueryUserResult" project="jersey-jwt" 
+    file="/jersey-jwt/src/main/java/com/cassiomolin/example/user/api/model/QueryUserResult.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="441" width="196" x="865" y="477"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="com.cassiomolin.example.user.domain.User" project="jersey-jwt" 
+    file="/jersey-jwt/src/main/java/com/cassiomolin/example/user/domain/User.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="531" width="196" x="825" y="958"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="24">    
+    <bendpoint x="776" y="230"/>    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="25" name="userService">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="26" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="27">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <association id="28">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="29" name="settings">        
+        <position height="0" width="0" x="-191" y="-6"/>      
+      </attribute>      
+      <multiplicity id="30" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-191" y="-6"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="31">    
+    <bendpoint x="1196" y="958"/>    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="32">    
+    <bendpoint x="2144" y="958"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <nesting id="33">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="10"/>  
+  </nesting>  
+  <association id="34">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="35" name="authenticationTokenService">        
+        <position height="0" width="0" x="-46" y="15"/>      
+      </attribute>      
+      <multiplicity id="36" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-46" y="15"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="37">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <association id="38">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="39" name="authorities">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="40" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="41">    
+    <bendpoint x="1588" y="477"/>    
+    <bendpoint x="1823" y="958"/>    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <association id="42">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="43" name="userService">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="44" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="45">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="46" name="passwordEncoder">        
+        <position height="0" width="0" x="70" y="-128"/>      
+      </attribute>      
+      <multiplicity id="47" minimum="0" maximum="1">        
+        <position height="0" width="0" x="70" y="-128"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="48">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <association id="49">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="50" name="tokenParser">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="51" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="52">    
+    <bendpoint x="1093" y="230"/>    
+    <bendpoint x="1091" y="477"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <dependency id="53">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="54">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <association id="55">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="56" name="tokenIssuer">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="57" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="58">    
+    <bendpoint x="2538" y="958"/>    
+    <bendpoint x="2538" y="1529"/>    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="59" name="authorities">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="60" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="61">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <association id="62">    
+    <bendpoint x="1051" y="958"/>    
+    <bendpoint x="1051" y="1529"/>    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="63" name="authorities">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="64" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="65">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="66" name="usernamePasswordValidator">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="67" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="68">    
+    <bendpoint x="1717" y="1529"/>    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="69" name="authorities">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="70" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="71">    
+    <bendpoint x="1005" y="1529"/>    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="72" name="authorities">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="73" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="74">    
+    <bendpoint x="1567" y="477"/>    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <association id="75">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="76" name="settings">        
+        <position height="0" width="0" x="-191" y="-6"/>      
+      </attribute>      
+      <multiplicity id="77" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-191" y="-6"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="78">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <association id="79">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="80" name="userService">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="81" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="82">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="83" name="authenticationTokenService">        
+        <position height="0" width="0" x="-46" y="15"/>      
+      </attribute>      
+      <multiplicity id="84" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-46" y="15"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="85">    
+    <bendpoint x="1133" y="477"/>    
+    <bendpoint x="1112" y="958"/>    
+    <bendpoint x="1112" y="1529"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="86">    
+    <bendpoint x="1958" y="230"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="87">    
+    <bendpoint x="1072" y="230"/>    
+    <bendpoint x="1112" y="477"/>    
+    <bendpoint x="1133" y="958"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="88">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="89">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <association id="90">    
+    <bendpoint x="1154" y="477"/>    
+    <bendpoint x="1154" y="958"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="91" name="authenticationTokenDetails">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="92" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="93">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="94" name="authenticatedUserDetails">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="95" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="96">    
+    <bendpoint x="548" y="477"/>    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <dependency id="97">    
+    <bendpoint x="1175" y="958"/>    
+    <bendpoint x="1175" y="1529"/>    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="98">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="99">    
+    <bendpoint x="834" y="477"/>    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <dependency id="100">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <dependency id="101">    
+    <bendpoint x="2580" y="230"/>    
+    <bendpoint x="2580" y="477"/>    
+    <bendpoint x="2517" y="958"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="102">    
+    <bendpoint x="2559" y="477"/>    
+    <bendpoint x="2559" y="958"/>    
+    <bendpoint x="2559" y="1529"/>    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="103">    
+    <bendpoint x="755" y="230"/>    
+    <bendpoint x="569" y="477"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
