@@ -20,6 +20,7 @@ public class PasswordEncoder {
      */
     public String hashPassword(String plainTextPassword) {
         String salt = BCrypt.gensalt();
+        System.out.println(salt);
         return BCrypt.hashpw(plainTextPassword, salt);
     }
 

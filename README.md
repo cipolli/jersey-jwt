@@ -61,6 +61,10 @@ To build and run this application, follow these steps:
 1. The application should be available at `http://localhost:8080/api`.
 
 When the application starts up, the database will be populated with the following users:
+D	Username	Password	Active	Roles
+1	admin	password	true	ADMIN, USER
+2	user	password	true	USER
+
 
 ID | Username | Password | Active | Roles
 ---|--------- |----------|--------|-------------

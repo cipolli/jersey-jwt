@@ -93,4 +93,12 @@ public class UserResource {
         queryUserResult.setActive(user.isActive());
         return queryUserResult;
     }
+    
+    @POST
+    private Response createUser(User user) {
+    	//TODO SEC método createUser 
+    	userService.createUser(user);
+		return null;
+    	
+    }
 }

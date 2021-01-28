@@ -16,7 +16,7 @@ import javax.inject.Inject;
 @ApplicationScoped
 public class UsernamePasswordValidator {
 
-    @Inject
+	@Inject
     private UserService userService;
 
     @Inject

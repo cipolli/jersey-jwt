@@ -54,4 +54,9 @@ public class UserService {
     public Optional<User> findById(Long userId) {
         return Optional.ofNullable(em.find(User.class, userId));
     }
+
+	public void createUser(User user) {
+		// TODO SEC userService.createUser (eu acho que da pra usa o GenericDAO)
+		
+	}
 }
